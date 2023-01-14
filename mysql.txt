@@ -1,0 +1,11 @@
+create database SecondLibrary;
+show databases
+use SecondLibrary
+create table Book (Book_name varchar(25), Book_author varchar(25), Book_subject varchar(25), Book_id int(10), Book_shelfposition int(10)); 
+desc SecondLibrary
+insert into Book (Book_name, Book_author, Book_subject, Book_id, Book_shelfposition ) values ('Lost Canvas', 'Canvas', 'Cosmos', 34756, 099);
+insert into Book (Book_name, Book_author, Book_subject, Book_id, Book_shelfposition ) values ('Lost Soul', 'Soul', 'Soul', 44756, 089);
+insert into Book (Book_name, Book_author, Book_subject, Book_id, Book_shelfposition ) values ('Lost Path', 'Path', 'Path', 347666, 6619);
+insert into Book (Book_name, Book_author, Book_subject, Book_id, Book_shelfposition ) values ('Lost Faith', 'Faith', 'Faith', 34732, 6579);
+insert into Book (Book_name, Book_author, Book_subject, Book_id, Book_shelfposition ) values ('Lost Family', 'Family', 'Family', 348516, 5790);
+;
